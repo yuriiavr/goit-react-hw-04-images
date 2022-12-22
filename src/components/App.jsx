@@ -56,6 +56,7 @@ export const App = () => {
   const onFormSubmitHandler = ({ searchInput }) => {
     setSearchKey(searchInput);
     setGallery([]);
+    setPage(1);
   };
 
   const onLoadButtonClick = () => {
